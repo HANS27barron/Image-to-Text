@@ -3,6 +3,7 @@ import requests
 from dotenv import find_dotenv, load_dotenv
 from transformers import pipeline
 import streamlit as st
+import tensorflow
 
 load_dotenv(find_dotenv())
 HUGGINGFACE_KEY = os.getenv("HUGGINGFACE_KEY")
